@@ -4,3 +4,12 @@
 // Return the average salary of employees excluding
 // the minimum and maximum salary.
 // Answers within 10-5 of the actual answer will be accepted.
+/**
+ * @param {number[]} salary
+ * @return {number}
+ */
+ var average = function(salary) {
+  salary = salary.sort();
+  salary.forEach(element => {
+  });    
+};
